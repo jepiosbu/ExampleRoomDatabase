@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:ems="10"
+        android:enabled="false"
+        android:background="@drawable/table"
+        android:inputType="text"
+        android:layout_marginLeft="10dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:enabled="false"
+        android:ems="10"
+        android:textAlignment="center"
+        android:background="@drawable/table"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/editar"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/edit"
+        android:text="editar"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="0px"
+        android:layout_height="20dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/edit"
+        android:backgroundTint="@color/blue"
+        android:text="save"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/eliminar"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@drawable/delete"
+        android:text="ELIMINAR"
+        android:textColor="@color/black" />
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarOptionActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="229dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="123dp"
+        android:text="Registrar Vacunas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="229dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:text="Registrar Roles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="229dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:text="Registrar Tipo Mascota"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+    android:id="@+id/button5"
+    android:layout_width="229dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="28dp"
+    android:text="Registrar Usuario"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+    android:id="@+id/button6"
+    android:layout_width="229dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="28dp"
+    android:text="Registrar Mascota"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/button5" />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="229dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:text="Registrar Control De Vacuna"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+</androidx.constraintlayout.widget.ConstraintLayout>
